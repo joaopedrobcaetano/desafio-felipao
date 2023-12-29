@@ -18,6 +18,6 @@ if (xpHeroi <= 1000) {
     nivelHeroi = "Imortal"
 } else {
     nivelHeroi = "Radiante"
-} 
+}
 
 console.log("O Herói de nome " + nomeHeroi + " tem " + xpHeroi + " pontos de experiência, e está no nível " + nivelHeroi + ".")
