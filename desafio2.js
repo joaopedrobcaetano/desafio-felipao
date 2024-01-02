@@ -8,12 +8,12 @@ getNivel()
 
 console.log(`O Herói tem de saldo de ${saldo} e está no nível de ${nivel}.`)
 
-function getSaldo(){
+function getSaldo() {
     saldo = vitorias - derrotas
     return saldo
 }
 
-function getNivel(){
+function getNivel() {
     switch (true) {
         case saldo <= 10:
             nivel = "Ferro"
@@ -24,8 +24,8 @@ function getNivel(){
             nivel = "Bronze"
             return nivel
             break;
-            
-            
+
+
         case saldo >= 21 && saldo < 50:
             nivel = "Prata"
             return nivel
@@ -45,7 +45,7 @@ function getNivel(){
             nivel = "Lendário"
             return nivel
             break;
-    
+
         default:
             nivel = "Imortal"
             return nivel
